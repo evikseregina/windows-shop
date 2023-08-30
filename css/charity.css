@@ -306,6 +306,7 @@ img {
 }
 .menu-products__block {
   display: flex;
+  align-items: center;
   gap: 16px;
   border-radius: 6px;
   border: 1px solid #F1F5F9;
@@ -318,6 +319,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 15px;
+  margin-bottom: unset !important;
 }
 .menu-products__city {
   color: #2F80ED;
@@ -330,6 +332,7 @@ img {
 }
 .menu-products__div {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
@@ -841,6 +844,12 @@ img {
   .menu-products {
     gap: 15px;
   }
+  .menu-products__ul {
+    gap: 15px;
+  }
+  .menu-products__block {
+    margin-top: 5px;
+  }
   .vacancy__div {
     padding: 40px 0;
   }
@@ -945,11 +954,11 @@ img {
   .vacancy__img {
     width: 900px;
     right: 3%;
-    top: 13px;
+    top: 50px;
   }
   .vacancy__box {
     position: relative;
-    width: 800px;
+    width: 700px;
     height: 310px;
   }
   .vacancy__div {
@@ -1108,15 +1117,16 @@ img {
     grid-column: unset;
   }
   .communication__block {
-    width: 400px;
+    width: 500px;
     margin: unset;
   }
   .communication__img {
-    top: 100px;
-    right: -25%;
+    top: 60px;
+    width: 450px;
   }
   .communication__image {
-    right: -15%;
+    width: 400px;
+    right: 5%;
   }
   .contacts__block {
     flex-wrap: wrap;
@@ -1129,9 +1139,6 @@ img {
   }
   .header__position {
     gap: 38px;
-  }
-  .menu-products__div {
-    align-items: center;
   }
 }
 @media (max-width: 566px) {
@@ -1248,7 +1255,6 @@ img {
   }
   .article-max, .article-mini {
     padding: 26px;
-    margin: 0 16px;
   }
   .subtitle {
     font-size: 26px;

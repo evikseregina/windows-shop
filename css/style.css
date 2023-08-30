@@ -796,6 +796,12 @@ img {
   .menu-products {
     gap: 15px;
   }
+  .menu-products__ul {
+    gap: 15px;
+  }
+  .menu-products__block {
+    margin-top: 5px;
+  }
   .vacancy__div {
     padding: 40px 0;
   }
