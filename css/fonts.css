@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "exo 2 Regular";
+  src: url(../fonts/Exo2-Regular.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "exo 2 Medium";
+  src: url(../fonts/Exo2-Medium.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "exo 2 SemiBold";
+  src: url(../fonts/Exo2-SemiBold.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "exo 2 Bold";
+  src: url(../fonts/Exo2-Bold.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "exo 2 Black";
+  src: url(../fonts/Exo2-Black.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "exo 2 light";
+  src: url(../fonts/Exo2-Light.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "Montserrat regular";
+  src: url(../fonts/Montserrat-Regular.ttf);
+  font-weight: normal;
+  font-size: normal;
+}
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url(../fonts/Inter-ExtraBold.ttf);
+  font-weight: normal;
+  font-size: normal;
+}/*# sourceMappingURL=fonts.css.map */
