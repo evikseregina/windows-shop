@@ -478,6 +478,10 @@ img {
   gap: 5px;
   align-items: center;
 }
+.article-max__image {
+  width: 120px;
+  height: 40px;
+}
 
 .article-mini__subtitle {
   margin: 16px 0;

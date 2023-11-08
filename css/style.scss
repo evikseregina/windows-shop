@@ -10,6 +10,7 @@ text-decoration: none;
 }
 img{
     max-width: 100%;
+    vertical-align: unset !important;
 }
 .burger{
     display: none;
@@ -435,6 +436,10 @@ line-height: 130%;
      display: flex;
      gap: 5px;
      align-items: center;
+     }
+     &__image{
+        width: 140px;
+        height: 50px;
      }
    }
    .article-mini{
